@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build (C)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-std=gnu11",
+                "-o",
+                "`wslpath",
+                "'./a.out'`",
+                "`wslpath",
+                "'${fileBasename}'`",
+                "-lm"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Build (C++)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=gnu++1y",
+                "-O2",
+                "-I/opt/boost/gcc/include",
+                "-L/opt/boost/gcc/lib",
+                "-o",
+                "`wslpath",
+                "'./a.out'`",
+                "`wslpath",
+                "'${fileBasename}'`",
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
