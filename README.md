@@ -35,15 +35,15 @@ Microsoft Storeから、Ubuntu 18.04 LTSをインストールし、コンソー�
 
 セットアップが完了したら、以下のコマンドを順に実行。
 
-```sudo sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list```
+```shell
+sudo sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list
 
-```sudo apt update```
+sudo apt update
 
-```sudo apt upgrade```
+sudo apt upgrade
 
-```sudo apt install build-essential```
-
-```sudo apt install gdb```
+sudo apt install -y build-essential gdb
+```
 
 #### VSCode Workspace
 
