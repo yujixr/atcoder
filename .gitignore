@@ -1,3 +1,4 @@
+input.txt
 
 # Created by https://www.gitignore.io/api/c,c++,windows,visualstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=c,c++,windows,visualstudio,visualstudiocode
@@ -460,5 +461,3 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/c,c++,windows,visualstudio,visualstudiocode
-
-input.txt
