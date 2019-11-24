@@ -64,4 +64,5 @@
         "utility": "cpp",
         "valarray": "cpp"
     },
+    "python.pythonPath": "/home/yuji/miniconda3/bin/python",
 }
