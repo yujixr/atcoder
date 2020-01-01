@@ -8,10 +8,8 @@
             "args": [
                 "-std=gnu11",
                 "-o",
-                "`wslpath",
-                "'./a.out'`",
-                "`wslpath",
-                "'${fileBasename}'`",
+                "./a.out",
+                "${fileBasename}",
                 "-lm"
             ],
             "group": "build",
@@ -30,10 +28,8 @@
                 "-I/opt/boost/gcc/include",
                 "-L/opt/boost/gcc/lib",
                 "-o",
-                "`wslpath",
-                "'./a.out'`",
-                "`wslpath",
-                "'${fileBasename}'`",
+                "./a.out",
+                "${fileBasename}",
             ],
             "group": "build",
             "presentation": {
