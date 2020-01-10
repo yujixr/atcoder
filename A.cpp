@@ -3,5 +3,11 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int k, x;
+  cin >> k >> x;
+  if(500*k>=x){
+    cout << "Yes" << endl;
+    return 0;
+  }
+  cout << "No" << endl;
 }
