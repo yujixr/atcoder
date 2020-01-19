@@ -3,5 +3,11 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n,m;
+  cin>>n>>m;
+  if(n==m){
+    cout<<"Yes"<<endl;
+    return 0;
+  }
+  cout<<"No"<<endl;
 }
