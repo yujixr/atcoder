@@ -3,5 +3,17 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  uint64_t h, n = 1, r = 0;
+  cin >> h;
+  while (1)
+  {
+    r += n;
+    if (h <= 1)
+    {
+      break;
+    }
+    h /= 2;
+    n *= 2;
+  }
+  cout << r << endl;
 }

@@ -3,5 +3,14 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int h, a;
+  cin >> h >> a;
+  if (h % a == 0)
+  {
+    cout << h / a << endl;
+  }
+  else
+  {
+    cout << h / a + 1 << endl;
+  }
 }
