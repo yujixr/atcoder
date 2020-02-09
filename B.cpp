@@ -3,5 +3,11 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  string s;
+  cin >> s;
+  for (int i = 0; i < s.length(); i++)
+  {
+    cout << 'x';
+  }
+  cout << endl;
 }
