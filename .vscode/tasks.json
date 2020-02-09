@@ -2,23 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build (C)",
-            "type": "shell",
-            "command": "gcc",
-            "args": [
-                "-std=gnu11",
-                "-o",
-                "./a.out",
-                "${fileBasename}",
-                "-lm"
-            ],
-            "group": "build",
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": "$gcc"
-        },
-        {
             "label": "Build (C++)",
             "type": "shell",
             "command": "g++",
@@ -30,6 +13,23 @@
                 "-o",
                 "./a.out",
                 "${fileBasename}",
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Build (C)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-std=gnu11",
+                "-o",
+                "./a.out",
+                "${fileBasename}",
+                "-lm"
             ],
             "group": "build",
             "presentation": {
