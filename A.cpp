@@ -3,5 +3,7 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n;
+  cin >> n;
+  cout << (int)(((double)n) / 2.0 + 0.5) << endl;
 }
