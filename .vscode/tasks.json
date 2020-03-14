@@ -7,6 +7,7 @@
             "command": "g++",
             "args": [
                 "-std=gnu++1y",
+                "-g",
                 "-O2",
                 "-I/opt/boost/gcc/include",
                 "-L/opt/boost/gcc/lib",
@@ -26,6 +27,7 @@
             "command": "gcc",
             "args": [
                 "-std=gnu11",
+                "-g",
                 "-o",
                 "./a.out",
                 "${fileBasename}",
