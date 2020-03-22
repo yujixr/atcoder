@@ -3,5 +3,7 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int l;
+  cin >> l;
+  cout << std::setprecision(2000) << l * l * l / 27.0 << endl;
 }
