@@ -3,5 +3,8 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int64_t n, k;
+  cin >> n >> k;
+  n %= k;
+  cout << min(n, abs(n - k)) << endl;
 }

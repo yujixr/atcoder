@@ -69,6 +69,7 @@
         "random": "cpp",
         "regex": "cpp",
         "set": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "strstream": "cpp"
     },
 }
