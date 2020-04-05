@@ -13,7 +13,7 @@
                 "-L/opt/boost/gcc/lib",
                 "-o",
                 "./a.out",
-                "${fileBasename}",
+                "${relativeFile}",
             ],
             "group": "build",
             "presentation": {
@@ -30,7 +30,7 @@
                 "-g",
                 "-o",
                 "./a.out",
-                "${fileBasename}",
+                "${relativeFile}",
                 "-lm"
             ],
             "group": "build",
