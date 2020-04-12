@@ -3,5 +3,19 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  uint64_t sum = 0;
+  int k;
+  cin >> k;
+  for (int a = 1; a <= k; a++)
+  {
+    for (int b = 1; b <= k; b++)
+    {
+      int abgcd = __gcd(a, b);
+      for (int c = 1; c <= k; c++)
+      {
+        sum += __gcd(abgcd, c);
+      }
+    }
+  }
+  cout << sum << endl;
 }
