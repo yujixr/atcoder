@@ -3,5 +3,7 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int s, w;
+  cin >> s >> w;
+  cout << (s <= w ? "unsafe" : "safe") << endl;
 }

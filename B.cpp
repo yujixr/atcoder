@@ -3,5 +3,7 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int a, b, c, d;
+  cin >> a >> b >> c >> d;
+  cout << (ceil(a / (double)d) >= ceil(c / (double)b) ? "Yes" : "No") << endl;
 }
