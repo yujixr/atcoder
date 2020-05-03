@@ -3,5 +3,14 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  string s;
+  cin >> s;
+  if (s == "ABC")
+  {
+    cout << "ARC" << endl;
+  }
+  else
+  {
+    cout << "ABC" << endl;
+  }
 }
