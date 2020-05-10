@@ -3,5 +3,19 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int a, b, c, k;
+  cin >> a >> b >> c >> k;
+
+  if (a >= k)
+  {
+    cout << k << endl;
+  }
+  else if (a + b >= k)
+  {
+    cout << a << endl;
+  }
+  else
+  {
+    cout << a - k + a + b << endl;
+  }
 }

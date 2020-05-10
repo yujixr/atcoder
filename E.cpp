@@ -3,5 +3,6 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n, m, k;
+  cin >> n >> m >> k;
 }
