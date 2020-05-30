@@ -3,5 +3,13 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n;
+  vector<int> a;
+  cin >> n;
+  for (int i = 0; i < n + 1; i++)
+  {
+    int tmp;
+    cin >> tmp;
+    a.push_back(tmp);
+  }
 }

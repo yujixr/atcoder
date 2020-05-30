@@ -3,5 +3,8 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  string t;
+  cin >> t;
+  replace(t.begin(), t.end(), '?', 'D');
+  cout << t << endl;
 }
