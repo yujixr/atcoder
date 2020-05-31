@@ -3,5 +3,8 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  uint64_t a;
+  double b;
+  cin >> a >> b;
+  cout << std::setprecision(100) << floor(a * b) << endl;
 }
