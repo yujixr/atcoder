@@ -3,5 +3,9 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int k;
+  string s;
+  cin >> k >> s;
+
+  pow(k, s.length() + 1);
 }

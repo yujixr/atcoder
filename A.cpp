@@ -3,5 +3,14 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  char a;
+  cin >> a;
+  if ('a' <= a && a <= 'z')
+  {
+    cout << 'a' << endl;
+  }
+  else
+  {
+    cout << 'A' << endl;
+  }
 }
