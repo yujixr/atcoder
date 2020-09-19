@@ -3,5 +3,15 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  string s;
+  cin >> s;
+  cout << s;
+  if (s[s.length() - 1] == 's')
+  {
+    cout << "es" << endl;
+  }
+  else
+  {
+    cout << "s" << endl;
+  }
 }
