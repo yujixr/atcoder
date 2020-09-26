@@ -21,3 +21,16 @@ Standard input is redirected to `input.txt`.
 
 Just run `make`, and run the generated binary.
 if you want to clean up, run `make clean`.
+
+## Template
+
+``` c++
+#include <bits/stdc++.h>
+#include <atcoder/all>
+using namespace std;
+
+int main()
+{
+  cout << "hello,world" << endl;
+}
+```
