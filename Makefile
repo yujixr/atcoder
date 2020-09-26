@@ -1,4 +1,4 @@
-CFLAGS = -g -std=gnu++17 -Wall -Wextra -O2 -DONLINE_JUDGE -I/opt/boost/gcc/include -L/opt/boost/gcc/lib
+CFLAGS = -g -std=gnu++17 -Wall -Wextra -O2 -DONLINE_JUDGE -I/opt/boost/gcc/include -L/opt/boost/gcc/lib -I./acl
 
 all: a.out b.out c.out d.out e.out f.out input.txt
 

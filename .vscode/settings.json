@@ -69,6 +69,18 @@
         "random": "cpp",
         "regex": "cpp",
         "set": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "any": "cpp",
+        "hash_map": "cpp",
+        "bit": "cpp",
+        "charconv": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "numbers": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "stop_token": "cpp",
+        "variant": "cpp",
+        "all": "cpp"
     },
 }

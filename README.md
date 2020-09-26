@@ -1,20 +1,23 @@
 # AtCoder
 
-コンテスト用のプログラムを書いてくリポジトリ
+For competitive programming contests...
 
-## 実行方法
+## How to run
 
-F5キーでコンパイル&実行&デバッグが自動で動く。
-標準入力は "input.txt"にリダイレクトしているので実行サンプルをコピペしたらOK。
+Press F5 key to compile, run, and debug. 
+Standard input is redirected to `input.txt`.
 
-## 環境構築
+## Development environment
 
-Dockerを使うようにしました。
-環境構築の手間はほぼゼロです。
+### Visual Studio Code
 
-1. VS Codeをインストールし、Remote Development拡張を入れる
-1. このリポジトリをpull
-1. Reopen in Container
-1. セットアップを待つ
+1. Install [VS Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/)
+2. Add [`ms-vscode-remote.remote-containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+3. Pull [this repository](https://github.com/yujixr/atcoder.git)
+4. Click `Reopen in Container`
+5. Just wait a minute
 
-これでOK。
+### GNU Make
+
+Just run `make`, and run the generated binary.
+if you want to clean up, run `make clean`.

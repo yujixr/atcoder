@@ -6,32 +6,17 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-std=gnu++1y",
                 "-g",
+                "-std=gnu++17",
+                "-Wall",
+                "-Wextra",
                 "-O2",
+                "-DONLINE_JUDGE",
                 "-I/opt/boost/gcc/include",
                 "-L/opt/boost/gcc/lib",
-                "-o",
-                "./a.out",
+                "-I./acl",
+                "-o./${fileBasenameNoExtension}.out",
                 "${relativeFile}",
-            ],
-            "group": "build",
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": "$gcc"
-        },
-        {
-            "label": "Build (C)",
-            "type": "shell",
-            "command": "gcc",
-            "args": [
-                "-std=gnu11",
-                "-g",
-                "-o",
-                "./a.out",
-                "${relativeFile}",
-                "-lm"
             ],
             "group": "build",
             "presentation": {
