@@ -11,11 +11,10 @@ Standard input is redirected to `input.txt`.
 
 ### Visual Studio Code
 
-1. Install [VS Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/)
-2. Add [`ms-vscode-remote.remote-containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+1. Install [VS Code](https://code.visualstudio.com/), [GCC](https://gcc.gnu.org/)
+2. Add [`ms-vscode.cpptools`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension
 3. Pull [this repository](https://github.com/yujixr/atcoder.git)
-4. Click `Reopen in Container`
-5. Just wait a minute
+4. Open the folder that contains the repository
 
 ### GNU Make
 
