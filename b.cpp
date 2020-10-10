@@ -8,17 +8,21 @@ int main()
   array<array<bool, 100>, 100> s;
 
   cin >> h >> w;
-  for (int i = 0; i < h; i++)
+  for (int y = 0; y < h; y++)
   {
     string tts;
 
     cin >> tts;
-    for (int j = 0; j < tts.length(); j++)
+    for (int x = 0; x < w; x++)
     {
-      s[i][j] = tts[j] == '#';
-      if (i != 0 && s[i - 1][j] == s[i][j])
+      s[x][y] = tts[x] == '#';
+
+      if (s[x][y])
+        continue;
+
+      if (x != 0 && s[x - 1][y] == s[x][y])
         r++;
-      if (j != 0 && s[i][j - 1] == s[i][j])
+      if (y != 0 && s[x][y - 1] == s[x][y])
         r++;
     }
   }
