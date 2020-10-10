@@ -4,5 +4,7 @@ using namespace std;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  char s, t;
+  cin >> s >> t;
+  cout << (char)(t - 0x20*(s == 'Y')) << endl;
 }
