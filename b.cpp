@@ -1,9 +1,18 @@
 #include <bits/stdc++.h>
-#include <atcoder/all>
 using namespace std;
-using namespace atcoder;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int t;
+  string s;
+  cin >> t >> s;
+
+  int r = 0;
+  for (int i = 0; i < s.length(); i++)
+  {
+    char p = (i % 2) ? 'O' : 'I';
+    if (s[i] != p)
+      r++;
+  }
+  cout << r << endl;
 }

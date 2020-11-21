@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
-#include <atcoder/all>
 using namespace std;
-using namespace atcoder;
 
-int main()
-{
-  cout << "hello,world" << endl;
+int main() {
+  int a, b;
+  cin >> a >> b;
+  cout << max(a + b, a - b) << endl << min(a + b, a - b) << endl;
 }
