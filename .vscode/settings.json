@@ -1,4 +1,7 @@
 {
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/acl"
+    ],
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
@@ -82,5 +85,5 @@
         "stop_token": "cpp",
         "variant": "cpp",
         "all": "cpp"
-    },
+    }
 }
