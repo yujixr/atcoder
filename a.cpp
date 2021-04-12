@@ -5,5 +5,7 @@ using namespace atcoder;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n;
+  cin >> n;
+  cout << n - 1 << endl;
 }
