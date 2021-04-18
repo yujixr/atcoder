@@ -5,5 +5,14 @@ using namespace atcoder;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n;
+  unordered_set<int> a;
+
+  cin >> n;
+  for (int i = 0; i < n; i++)
+  {
+    int tmp;
+    cin >> tmp;
+    a.insert(tmp);
+  }
 }
