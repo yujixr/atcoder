@@ -5,5 +5,16 @@ using namespace atcoder;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  int n, k;
+  vector<string> s;
+
+  cin >> n >> k;
+  for (int i = 0; i < n; i++)
+  {
+    string tmp;
+    cin >> tmp;
+    s.push_back(tmp);
+  }
+
+  
 }
