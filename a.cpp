@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
