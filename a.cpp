@@ -5,5 +5,7 @@ using namespace atcoder;
 
 int main()
 {
-  cout << "hello,world" << endl;
+  string s;
+  cin >> s;
+  cout << s.substr(0, s.length() - 1) << 4 << endl;
 }
